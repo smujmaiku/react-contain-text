@@ -21,20 +21,22 @@ const App = (props) => {
 	const boxRef = useRef();
 	useContain(boxRef);
 
-	return <div
-		ref={boxRef}
-		style={{
-			height: 100,
-			width: 100,
-		}}
-	>
-		<p>Buncha stuff to resize!</p>
-		<img
-			src="image.png"
-			style={height: '15em', width: '15em'}
-			alt="This will too if you use em"
-		/>
-	</div>;
+	return (
+		<div
+			ref={boxRef}
+			style={{
+				height: 100,
+				width: 100,
+			}}
+		>
+			<p>Buncha stuff to resize!</p>
+			<img
+				src="image.png"
+				style={{ height: '5em', width: '5em' }}
+				alt="This will too if you use em"
+			/>
+		</div>
+	);
 };
 ```
 

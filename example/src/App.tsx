@@ -53,6 +53,10 @@ function App() {
 			ref={rootRef}
 			style={style}
 		>
+			<img
+				src="https://avatars3.githubusercontent.com/u/5100491"
+				style={{ height: '5em', width: '5em' }}
+			/>
 			{text.split('\n').map((line, i) => (
 				<p key={i.toFixed()}>{line}</p>
 			))}
