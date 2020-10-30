@@ -1,6 +1,6 @@
 {
   "name": "react-contain-textbox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Resize your text to fit a box",
   "main": "lib/contain.js",
   "types": "lib/contain.d.ts",

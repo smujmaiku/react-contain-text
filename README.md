@@ -9,7 +9,7 @@ Anything can be contained so long as `em` is used in it's sizing!
 
 ## Examples
 
-[Full App Example Here](https://github.com/smujmaiku/react-contain-textbox/example)
+[Full App Example Here](https://github.com/smujmaiku/react-contain-textbox/tree/master/example)
 
 ### ES6
 
